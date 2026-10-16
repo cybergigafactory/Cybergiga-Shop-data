@@ -1,0 +1,507 @@
+[
+  {
+    "id": "6ad0d8a7210a7ce1c7029790",
+    "title": "Everything Is Impossible Until You Do It – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad0d8a7210a7ce1c7029790/105894/103510/everything-is-impossible-until-you-do-it-t-shirt.jpg?camera_label=person-front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190262",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad08cb56350edbaa00afb92",
+    "title": "Employee of the month – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad08cb56350edbaa00afb92/105894/103512/employee-of-the-month-t-shirt.jpg?camera_label=person-2-front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190237",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ace8f2ece7c87c29804dedd",
+    "title": "Physics Is The Law – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ace8f2ece7c87c29804dedd/105894/103512/physics-is-the-law-t-shirt.jpg?camera_label=person-2-front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190230",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad271d7be99720e8e0bb54e",
+    "title": "Everything Is Impossible Until You Do It – Kinder Sweatshirt",
+    "image": "https://images-api.printify.com/mockup/6ad271d7be99720e8e0bb54e/31739/301/everything-is-impossible-until-you-do-it-kinder-sweatshirt.jpg?camera_label=front",
+    "price": 25.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190075",
+    "categories": [
+      "Sweatshirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271d4ee6ea7f8bc013382",
+    "title": "Everything Is Impossible Until You Do It – Kinder Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad271d4ee6ea7f8bc013382/32184/169/everything-is-impossible-until-you-do-it-kinder-hoodie.jpg?camera_label=front",
+    "price": 35.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190072",
+    "categories": [
+      "Hoodies",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271d1f3b2ab4a880cda2d",
+    "title": "Everything Is Impossible Until You Do It – Kinder T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad271d1f3b2ab4a880cda2d/35036/266/everything-is-impossible-until-you-do-it-kinder-t-shirt.jpg?camera_label=front",
+    "price": 20.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190065",
+    "categories": [
+      "Shirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271ce416b4aca9e0fa765",
+    "title": "Employee of the month Robot – Kinder Sweatshirt",
+    "image": "https://images-api.printify.com/mockup/6ad271ce416b4aca9e0fa765/31739/301/employee-of-the-month-robot-kinder-sweatshirt.jpg?camera_label=front",
+    "price": 25.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190050",
+    "categories": [
+      "Sweatshirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271cba79415976f0ed2a5",
+    "title": "Employee of the month Robot – Kinder Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad271cba79415976f0ed2a5/32184/169/employee-of-the-month-robot-kinder-hoodie.jpg?camera_label=front",
+    "price": 35.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190045",
+    "categories": [
+      "Hoodies",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271c8acb04294d707e384",
+    "title": "Employee of the month Robot – Kinder T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad271c8acb04294d707e384/35036/266/employee-of-the-month-robot-kinder-t-shirt.jpg?camera_label=front",
+    "price": 20.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190043",
+    "categories": [
+      "Shirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271c59fb513ab880f4ef2",
+    "title": "Employee of the month – Kinder Sweatshirt",
+    "image": "https://images-api.printify.com/mockup/6ad271c59fb513ab880f4ef2/31739/301/employee-of-the-month-kinder-sweatshirt.jpg?camera_label=front",
+    "price": 25.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190029",
+    "categories": [
+      "Sweatshirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271c2f124a2c13f09bb9e",
+    "title": "Employee of the month – Kinder Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad271c2f124a2c13f09bb9e/32184/169/employee-of-the-month-kinder-hoodie.jpg?camera_label=front",
+    "price": 35.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190026",
+    "categories": [
+      "Hoodies",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271bf824c87e1e7020730",
+    "title": "Employee of the month – Kinder T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad271bf824c87e1e7020730/35036/266/employee-of-the-month-kinder-t-shirt.jpg?camera_label=front",
+    "price": 20.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190024",
+    "categories": [
+      "Shirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271bc824c87e1e702072b",
+    "title": "Physics Is The Law – Kinder Sweatshirt",
+    "image": "https://images-api.printify.com/mockup/6ad271bc824c87e1e702072b/31729/301/physics-is-the-law-kinder-sweatshirt.jpg?camera_label=front",
+    "price": 25.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190018",
+    "categories": [
+      "Sweatshirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271b8f124a2c13f09bb9c",
+    "title": "Physics Is The Law – Kinder Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad271b8f124a2c13f09bb9c/32106/169/physics-is-the-law-kinder-hoodie.jpg?camera_label=front",
+    "price": 35.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190007",
+    "categories": [
+      "Hoodies",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271b5be99720e8e0bb542",
+    "title": "Physics Is The Law – Kinder T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad271b5be99720e8e0bb542/35031/266/physics-is-the-law-kinder-t-shirt.jpg?camera_label=front",
+    "price": 20.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190006",
+    "categories": [
+      "Shirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271b28fb3604115036a9f",
+    "title": "Robots Are Coming – Kinder Sweatshirt",
+    "image": "https://images-api.printify.com/mockup/6ad271b28fb3604115036a9f/31729/301/robots-are-coming-kinder-sweatshirt.jpg?camera_label=front",
+    "price": 25.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33190000",
+    "categories": [
+      "Sweatshirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad271aef124a2c13f09bb93",
+    "title": "Robots Are Coming – Kinder Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad271aef124a2c13f09bb93/32106/169/robots-are-coming-kinder-hoodie.jpg?camera_label=front",
+    "price": 35.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189997",
+    "categories": [
+      "Hoodies",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad27191f3b2ab4a880cda08",
+    "title": "Robots Are Coming – Kinder T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad27191f3b2ab4a880cda08/35031/266/robots-are-coming-kinder-t-shirt.jpg?camera_label=front",
+    "price": 20.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189994",
+    "categories": [
+      "Shirts",
+      "Kinder"
+    ],
+    "visible": false,
+    "link_ok": false,
+    "link_status": 404
+  },
+  {
+    "id": "6ad0d8b2f0531fc34e0f5d43",
+    "title": "Everything Is Impossible Until You Do It – Mug",
+    "image": "https://images-api.printify.com/mockup/6ad0d8b2f0531fc34e0f5d43/79703/46012/everything-is-impossible-until-you-do-it-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189974",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad0d8ad210a7ce1c7029798",
+    "title": "Everything Is Impossible Until You Do It – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6ad0d8ad210a7ce1c7029798/79434/45008/everything-is-impossible-until-you-do-it-tote-bag.jpg?camera_label=front",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189973",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad0d8aa9f29f027050189f2",
+    "title": "Everything Is Impossible Until You Do It – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad0d8aa9f29f027050189f2/111252/105342/everything-is-impossible-until-you-do-it-hoodie.jpg?camera_label=person-1-front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189969",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad0d89af0531fc34e0f5d24",
+    "title": "Employee of the month Robot – Mug",
+    "image": "https://images-api.printify.com/mockup/6ad0d89af0531fc34e0f5d24/79703/46012/employee-of-the-month-robot-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189967",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad0d896ee5744f74e0952b3",
+    "title": "Employee of the month Robot – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6ad0d896ee5744f74e0952b3/79434/45025/employee-of-the-month-robot-tote-bag.jpg?camera_label=flat-lay",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189965",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad0d89297db1f1b0d0e732c",
+    "title": "Employee of the month Robot – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad0d89297db1f1b0d0e732c/111248/105348/employee-of-the-month-robot-hoodie.jpg?camera_label=person-2-front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189959",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad08cbb5483b97c8b08d5bd",
+    "title": "Employee of the month – Mug",
+    "image": "https://images-api.printify.com/mockup/6ad08cbb5483b97c8b08d5bd/79703/46012/employee-of-the-month-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189955",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad08cb89648a329160c2927",
+    "title": "Employee of the month – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6ad08cb89648a329160c2927/79434/45008/employee-of-the-month-tote-bag.jpg?camera_label=front",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189953",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad08cb624ebd1b30b024ec2",
+    "title": "Employee of the month – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad08cb624ebd1b30b024ec2/111248/105342/employee-of-the-month-hoodie.jpg?camera_label=person-1-front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189951",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ace8f34e1c98bc36b095932",
+    "title": "Physics Is The Law – Mug",
+    "image": "https://images-api.printify.com/mockup/6ace8f34e1c98bc36b095932/79703/46012/physics-is-the-law-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189948",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ace8f31ce7c87c29804dedf",
+    "title": "Physics Is The Law – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6ace8f31ce7c87c29804dedf/79434/45025/physics-is-the-law-tote-bag.jpg?camera_label=flat-lay",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189944",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ace8f2fec6de8c5e70c210c",
+    "title": "Physics Is The Law – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ace8f2fec6de8c5e70c210c/111248/105342/physics-is-the-law-hoodie.jpg?camera_label=person-1-front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189943",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6accf47687c401878d0f2b95",
+    "title": "Robots Are Coming – Mug",
+    "image": "https://images-api.printify.com/mockup/6accf47687c401878d0f2b95/79703/46012/robots-are-coming-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189939",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6accf4753ee7c178c80ffec0",
+    "title": "Robots Are Coming – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6accf4753ee7c178c80ffec0/79434/45025/robots-are-coming-tote-bag.jpg?camera_label=flat-lay",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189938",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6accf472418119f54500721b",
+    "title": "Robots Are Coming – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6accf472418119f54500721b/106074/102330/robots-are-coming-t-shirt.jpg?camera_label=front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33189871",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6accf474423a1ac1f3083ec2",
+    "title": "Robots Are Coming – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6accf474423a1ac1f3083ec2/111248/105348/robots-are-coming-hoodie.jpg?camera_label=person-2-front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33186186",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad0d88ff0531fc34e0f5d1a",
+    "title": "Employee of the month Robot – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad0d88ff0531fc34e0f5d1a/106074/103512/employee-of-the-month-robot-t-shirt.jpg?camera_label=person-2-front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33151411",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  }
+]
