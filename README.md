@@ -25,4 +25,4 @@ Die Seite zeigt nur Produkte mit `visible: true` (das schließt `link_ok: true` 
 https://raw.githubusercontent.com/cybergigafactory/Cybergiga-Shop-data/main/produkte.json
 
 ## Neu erzeugen
-Auf der Box: `python3 /workspace/GrokBot/shop/build_produkte.py` (Token aus der Umgebungsvariable `PRINTIFY_API_TOKEN`, nur lesende API-Aufrufe). Danach die Links prüfen, Produkte ohne HTTP 200 auf `visible: false` setzen, Datei hierher kopieren und pushen. Niemals Tokens committen.
+Auf der Box: `python3 /workspace/GrokBot/webseiten/shop/build_produkte.py` (Token aus der Umgebungsvariable `PRINTIFY_API_TOKEN`, nur lesende API-Aufrufe). Das Skript prüft jeden Store-Link selbst und setzt `visible` nur bei HTTP 200 (`link_status` 0 = keine Antwort). Danach Datei hierher kopieren und nach Freigabe pushen. Niemals Tokens committen.

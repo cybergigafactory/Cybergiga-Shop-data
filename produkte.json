@@ -1,5 +1,106 @@
 [
   {
+    "id": "6ad29b5ebe99720e8e0bd89a",
+    "title": "Never Bet Against Elon – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad29b5ebe99720e8e0bd89a/106074/102330/never-bet-against-elon-t-shirt.jpg?camera_label=front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33193323",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad29b613f42a07d4c0916bb",
+    "title": "Never Bet Against Elon – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad29b613f42a07d4c0916bb/111252/105309/never-bet-against-elon-hoodie.jpg?camera_label=front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33193319",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad29b643f42a07d4c0916c0",
+    "title": "Never Bet Against Elon – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6ad29b643f42a07d4c0916c0/79434/45008/never-bet-against-elon-tote-bag.jpg?camera_label=front",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33193314",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad29b67f124a2c13f09dd71",
+    "title": "Never Bet Against Elon – Mug",
+    "image": "https://images-api.printify.com/mockup/6ad29b67f124a2c13f09dd71/79703/46012/never-bet-against-elon-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33193312",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad29b6af124a2c13f09dd72",
+    "title": "Never Bet Against Elon – Kinder T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ad29b6af124a2c13f09dd72/35031/266/never-bet-against-elon-kinder-t-shirt.jpg?camera_label=front",
+    "price": 20.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33193305",
+    "categories": [
+      "Shirts",
+      "Kinder"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad29b6df124a2c13f09dd74",
+    "title": "Never Bet Against Elon – Kinder Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ad29b6df124a2c13f09dd74/32106/169/never-bet-against-elon-kinder-hoodie.jpg?camera_label=front",
+    "price": 35.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33193299",
+    "categories": [
+      "Hoodies",
+      "Kinder"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ad29b708dd72e60d20f1a2a",
+    "title": "Never Bet Against Elon – Kinder Sweatshirt",
+    "image": "https://images-api.printify.com/mockup/6ad29b708dd72e60d20f1a2a/31729/301/never-bet-against-elon-kinder-sweatshirt.jpg?camera_label=front",
+    "price": 25.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33193294",
+    "categories": [
+      "Sweatshirts",
+      "Kinder"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
     "id": "6ad0d8a7210a7ce1c7029790",
     "title": "Everything Is Impossible Until You Do It – T-Shirt",
     "image": "https://images-api.printify.com/mockup/6ad0d8a7210a7ce1c7029790/105894/103510/everything-is-impossible-until-you-do-it-t-shirt.jpg?camera_label=person-front",
