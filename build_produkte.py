@@ -57,8 +57,13 @@ while True:
     if page >= d.get('last_page', 1): break
     page += 1
 
+archiv = set()
+_ap = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'produkte-archiv.json')
+if os.path.exists(_ap):
+    archiv = {a['id'] for a in json.load(open(_ap))}
 out = []
 for p in prods:
+    if p['id'] in archiv: continue
     ext = p.get('external') or {}
     if not ext.get('id'): continue
     en = [v for v in p['variants'] if v['is_enabled']]

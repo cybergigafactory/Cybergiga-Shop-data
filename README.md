@@ -26,3 +26,5 @@ https://raw.githubusercontent.com/cybergigafactory/Cybergiga-Shop-data/main/prod
 
 ## Neu erzeugen
 Auf der Box: `python3 /workspace/GrokBot/webseiten/shop/build_produkte.py` (Token aus der Umgebungsvariable `PRINTIFY_API_TOKEN`, nur lesende API-Aufrufe). Das Skript prüft jeden Store-Link selbst und setzt `visible` nur bei HTTP 200 (`link_status` 0 = keine Antwort). Danach Datei hierher kopieren und nach Freigabe pushen. Niemals Tokens committen.
+
+**Archiv (30.10.2026):** 15 alte Kinderprodukte, deren Store-Links 404 lieferten, stehen jetzt in `produkte-archiv.json` statt in `produkte.json`. Der Generator überspringt sie. In Printify bleiben sie unverändert (nichts gelöscht).
