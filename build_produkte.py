@@ -42,7 +42,8 @@ def link_status(url, tries=3):
 
 def cats(t):
     t = t.lower(); c = []
-    if 'sweatshirt' in t: c = ['Sweatshirts']
+    if 'sticker' in t or 'aufkleber' in t: c = ['Aufkleber']
+    elif 'sweatshirt' in t: c = ['Sweatshirts']
     elif 'hoodie' in t: c = ['Hoodies']
     elif 't-shirt' in t: c = ['Shirts']
     elif 'mug' in t or 'tasse' in t: c = ['Tassen']

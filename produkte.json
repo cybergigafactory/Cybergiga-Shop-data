@@ -1,5 +1,173 @@
 [
   {
+    "id": "6ae32f7439077b3e7d02d7fe",
+    "title": "Cybergigafactory Sticker – Logo + QR-Code (dunkel, weißes Logo)",
+    "image": "https://images-api.printify.com/mockup/6ae32f7439077b3e7d02d7fe/75379/21473/cybergigafactory-sticker-logo-qr-code-dunkel-weisses-logo.jpg?camera_label=front",
+    "price": 8.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719396",
+    "categories": [
+      "Aufkleber"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae32f7239077b3e7d02d7fc",
+    "title": "Cybergigafactory Sticker – Logo + QR-Code (transparent, schwarz)",
+    "image": "https://images-api.printify.com/mockup/6ae32f7239077b3e7d02d7fc/74959/20974/cybergigafactory-sticker-logo-qr-code-transparent-schwarz.jpg?camera_label=front",
+    "price": 8.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719389",
+    "categories": [
+      "Aufkleber"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae336023b420e4b8c036550",
+    "title": "Caution Robotaxi – Autonomous Slipstream Donor – Bumper Sticker",
+    "image": "https://images-api.printify.com/mockup/6ae336023b420e4b8c036550/71929/12826/caution-robotaxi-autonomous-slipstream-donor-bumper-sticker.jpg?camera_label=front",
+    "price": 8.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719387",
+    "categories": [
+      "Aufkleber"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335fe3b420e4b8c036548",
+    "title": "Vorsicht Robotaxi – Autonomer Windschattenspender – Heck-Aufkleber",
+    "image": "https://images-api.printify.com/mockup/6ae335fe3b420e4b8c036548/71929/12826/vorsicht-robotaxi-autonomer-windschattenspender-heck-aufkleber.jpg?camera_label=front",
+    "price": 8.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719378",
+    "categories": [
+      "Aufkleber"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335ae423d10aee904ce1d",
+    "title": "Vorsicht Robotaxi – Autonomer Windschattenspender – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ae335ae423d10aee904ce1d/106074/102330/vorsicht-robotaxi-autonomer-windschattenspender-t-shirt.jpg?camera_label=front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719374",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335c8764ac24ef501e21a",
+    "title": "Caution Robotaxi – Autonomous Slipstream Donor – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ae335c8764ac24ef501e21a/111252/105309/caution-robotaxi-autonomous-slipstream-donor-hoodie.jpg?camera_label=front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719372",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335bb06419d0bd204cd56",
+    "title": "Vorsicht Robotaxi – Autonomer Windschattenspender – Hoodie",
+    "image": "https://images-api.printify.com/mockup/6ae335bb06419d0bd204cd56/111252/105309/vorsicht-robotaxi-autonomer-windschattenspender-hoodie.jpg?camera_label=front",
+    "price": 58.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719371",
+    "categories": [
+      "Hoodies"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335d006419d0bd204cdc5",
+    "title": "Caution Robotaxi – Autonomous Slipstream Donor – Mug",
+    "image": "https://images-api.printify.com/mockup/6ae335d006419d0bd204cdc5/79703/46012/caution-robotaxi-autonomous-slipstream-donor-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719361",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335c4764ac24ef501e204",
+    "title": "Vorsicht Robotaxi – Autonomer Windschattenspender – Mug",
+    "image": "https://images-api.printify.com/mockup/6ae335c4764ac24ef501e204/79703/46012/vorsicht-robotaxi-autonomer-windschattenspender-mug.jpg?camera_label=right",
+    "price": 12.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719357",
+    "categories": [
+      "Tassen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335c03b420e4b8c0364cb",
+    "title": "Vorsicht Robotaxi – Autonomer Windschattenspender – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6ae335c03b420e4b8c0364cb/79434/45008/vorsicht-robotaxi-autonomer-windschattenspender-tote-bag.jpg?camera_label=front",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719322",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335cea2eeed62a20a6e64",
+    "title": "Caution Robotaxi – Autonomous Slipstream Donor – Tote Bag",
+    "image": "https://images-api.printify.com/mockup/6ae335cea2eeed62a20a6e64/79434/45008/caution-robotaxi-autonomous-slipstream-donor-tote-bag.jpg?camera_label=front",
+    "price": 19.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719296",
+    "categories": [
+      "Taschen"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
+    "id": "6ae335b1a2eeed62a20a6dee",
+    "title": "Caution Robotaxi – Autonomous Slipstream Donor – T-Shirt",
+    "image": "https://images-api.printify.com/mockup/6ae335b1a2eeed62a20a6dee/106074/102330/caution-robotaxi-autonomous-slipstream-donor-t-shirt.jpg?camera_label=front",
+    "price": 29.0,
+    "currency": "EUR",
+    "url": "https://cybergigafactory.printify.me/product/33719277",
+    "categories": [
+      "Shirts"
+    ],
+    "visible": true,
+    "link_ok": true,
+    "link_status": 200
+  },
+  {
     "id": "6ad29b5ebe99720e8e0bd89a",
     "title": "Never Bet Against Elon – T-Shirt",
     "image": "https://images-api.printify.com/mockup/6ad29b5ebe99720e8e0bd89a/106074/102330/never-bet-against-elon-t-shirt.jpg?camera_label=front",
