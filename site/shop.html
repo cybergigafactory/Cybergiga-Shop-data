@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop | Cybergigafactory</title>
+<meta name="description" content="Shirts, Hoodies und Aufkleber von Cybergigafactory. Bestellung und Zahlung über den Printify Shop.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#000;--fl:#080808;--fl2:#111;--tx:#f4f4f4;--mu:#9a9a9a;--bl:#5c5c5c;--rd:#ffffff29;--or:#FF6A00}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--tx);font-family:Barlow,"Helvetica Neue",Arial,sans-serif}
+a{color:inherit}
+/* Vorschau-Kopf und -Fuss: in Grok Build durch Kopf und Fuss der Website ersetzen */
+.vs-kopf{position:sticky;top:0;z-index:5;height:3rem;border-bottom:1px solid var(--rd);background:#000c;backdrop-filter:blur(6px)}
+.vs-kopf>div,.vs-fuss>div{max-width:72rem;margin:0 auto;padding:0 1rem;display:flex;align-items:center;justify-content:space-between;height:100%;gap:1rem}
+.vs-kopf .marke{font:700 1.1rem "Barlow Condensed","Arial Narrow",sans-serif;letter-spacing:.08em;text-decoration:none}
+.vs-kopf nav{display:flex;gap:1.1rem;font-size:.9rem;overflow-x:auto}
+.vs-kopf nav a{text-decoration:none;color:var(--mu);white-space:nowrap}.vs-kopf nav a:hover,.vs-kopf nav a[aria-current]{color:var(--tx)}
+.vs-fuss{border-top:1px solid var(--rd);margin-top:4rem;padding:2rem 0;color:var(--mu);font-size:.85rem}
+.vs-fuss>div{flex-wrap:wrap;height:auto}.vs-fuss nav{display:flex;gap:1rem}.vs-fuss a{text-decoration:none}.vs-fuss a:hover{color:var(--tx)}
+/* Shop-Inhalt */
+.cgf-shop{max-width:72rem;margin:0 auto;padding:2.5rem 1rem 1rem}
+.cgf-shop h1,.cgf-shop h2{font-family:"Barlow Condensed","Arial Narrow",sans-serif;text-transform:uppercase;letter-spacing:.03em;margin:0}
+.cgf-shop h1{font-size:clamp(2.2rem,6vw,3.6rem);font-weight:700;line-height:1}
+.cgf-shop .unter{color:var(--mu);max-width:40rem;margin:.8rem 0 1.4rem;line-height:1.5}
+.cgf-shop .knopf{display:inline-block;background:var(--or);color:#000;font:600 1rem "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.06em;padding:.7rem 1.2rem;text-decoration:none;border:1px solid var(--or)}
+.cgf-shop .knopf:hover{background:transparent;color:var(--or)}
+.cgf-shop .knopf.leise{background:transparent;color:var(--tx);border-color:var(--rd)}.cgf-shop .knopf.leise:hover{border-color:var(--or);color:var(--or)}
+.cgf-shop .block{margin-top:3rem}
+.cgf-shop .block-kopf{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--rd);padding-bottom:.6rem;margin-bottom:1.2rem}
+.cgf-shop h2{font-size:1.9rem;font-weight:600}.cgf-shop h2::before{content:"";display:inline-block;width:.5rem;height:1.3rem;background:var(--or);margin-right:.6rem;vertical-align:-.1rem}
+.cgf-shop .zahl{color:var(--bl);font-family:ui-monospace,Menlo,monospace;font-size:.85rem}
+.cgf-shop .raster{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+@media (max-width:900px){.cgf-shop .raster{grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}}
+.cgf-shop .kachel{display:flex;flex-direction:column;background:var(--fl);border:1px solid var(--rd);text-decoration:none;transition:border-color .15s,transform .15s}
+.cgf-shop .kachel:hover,.cgf-shop .kachel:focus-visible{border-color:var(--or);transform:translateY(-2px);outline:none}
+.cgf-shop .bild{aspect-ratio:1/1;background:#fff;overflow:hidden}
+.cgf-shop .bild img{width:100%;height:100%;object-fit:cover;display:block}
+.cgf-shop .text{padding:.7rem .8rem .9rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
+.cgf-shop .titel{font:600 1.05rem/1.2 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.cgf-shop .preis{margin-top:auto;color:var(--or);font-family:ui-monospace,Menlo,monospace;font-size:.95rem}
+.cgf-shop .hinweis{margin-top:3rem;padding:1rem 1.2rem;border:1px solid var(--rd);background:var(--fl2);color:var(--mu);line-height:1.5;display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between}
+.cgf-shop .hinweis p{margin:0}
+.cgf-shop .leer{color:var(--mu)}
+</style>
+</head>
+<body>
+<!-- VORSCHAU-KOPF: nur fuer die lokale Vorschau, auf der Website den normalen Kopf verwenden -->
+<header class="vs-kopf"><div><a class="marke" href="/">CYBERGIGAFACTORY</a><nav aria-label="Hauptnavigation"><a href="/">Start</a><a href="/artikel">Artikel</a><a href="/posts">Posts</a><a href="/robotaxi-rechner">Robotaxi</a><a href="/shop" aria-current="page">Shop</a><a href="/ueber-mich">Über mich</a><a href="https://x.com/cybergigafacto1" target="_blank" rel="noopener noreferrer">X</a></nav></div></header>
+<!-- /VORSCHAU-KOPF -->
+<main id="inhalt" class="cgf-shop">
+  <h1>Shop</h1>
+  <p class="unter">Shirts, Hoodies und Aufkleber mit unseren Designs. Ein Klick auf ein Produkt öffnet die Produktseite im Printify Shop. Bestellung und Zahlung laufen über Printify.</p>
+  <a class="knopf" href="https://cybergigafactory.printify.me/" target="_blank" rel="noopener noreferrer">Zum ganzen Shop</a>
+  <section class="block" data-kat="Shirts" aria-labelledby="b-shirts"><div class="block-kopf"><h2 id="b-shirts">T-Shirts</h2><span class="zahl"></span></div><div class="raster"></div></section>
+  <section class="block" data-kat="Hoodies" aria-labelledby="b-hoodies"><div class="block-kopf"><h2 id="b-hoodies">Hoodies</h2><span class="zahl"></span></div><div class="raster"></div></section>
+  <section class="block" data-kat="Aufkleber" aria-labelledby="b-aufkleber"><div class="block-kopf"><h2 id="b-aufkleber">Aufkleber</h2><span class="zahl"></span></div><div class="raster"></div></section>
+  <div class="hinweis"><p>Bestellung, Zahlung und Versand laufen über Printify. Tassen, Taschen und weitere Produkte findest du im ganzen Shop.</p><a class="knopf leise" href="https://cybergigafactory.printify.me/" target="_blank" rel="noopener noreferrer">Weitere Produkte im Shop</a></div>
+</main>
+<!-- VORSCHAU-FUSS: nur fuer die lokale Vorschau, auf der Website den normalen Fuss verwenden -->
+<footer class="vs-fuss"><div><span>CYBERGIGAFACTORY · Unabhängige Fan- und Investorenseite. Keine Anlageberatung.</span><nav aria-label="Rechtliches"><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a><a href="/unterstuetzt-mich">Unterstützt mich</a></nav></div></footer>
+<!-- /VORSCHAU-FUSS -->
+<script>
+(function(){
+  var QUELLE = 'https://raw.githubusercontent.com/cybergigafactory/Cybergiga-Shop-data/main/produkte.json';
+  var FALLBACK = [{"id":"6ae32f7439077b3e7d02d7fe","title":"Cybergigafactory Sticker – Logo + QR-Code (dunkel, weißes Logo)","image":"https://images-api.printify.com/mockup/6ae32f7439077b3e7d02d7fe/75379/21473/cybergigafactory-sticker-logo-qr-code-dunkel-weisses-logo.jpg?camera_label=front","price":8.0,"url":"https://cybergigafactory.printify.me/product/33719396","categories":["Aufkleber"],"visible":true},{"id":"6ae32f7239077b3e7d02d7fc","title":"Cybergigafactory Sticker – Logo + QR-Code (transparent, schwarz)","image":"https://images-api.printify.com/mockup/6ae32f7239077b3e7d02d7fc/74959/20974/cybergigafactory-sticker-logo-qr-code-transparent-schwarz.jpg?camera_label=front","price":8.0,"url":"https://cybergigafactory.printify.me/product/33719389","categories":["Aufkleber"],"visible":true},{"id":"6ae336023b420e4b8c036550","title":"Caution Robotaxi – Autonomous Slipstream Donor – Bumper Sticker","image":"https://images-api.printify.com/mockup/6ae336023b420e4b8c036550/71929/12826/caution-robotaxi-autonomous-slipstream-donor-bumper-sticker.jpg?camera_label=front","price":8.0,"url":"https://cybergigafactory.printify.me/product/33719387","categories":["Aufkleber"],"visible":true},{"id":"6ae335fe3b420e4b8c036548","title":"Vorsicht Robotaxi – Autonomer Windschattenspender – Heck-Aufkleber","image":"https://images-api.printify.com/mockup/6ae335fe3b420e4b8c036548/71929/12826/vorsicht-robotaxi-autonomer-windschattenspender-heck-aufkleber.jpg?camera_label=front","price":8.0,"url":"https://cybergigafactory.printify.me/product/33719378","categories":["Aufkleber"],"visible":true},{"id":"6ae335ae423d10aee904ce1d","title":"Vorsicht Robotaxi – Autonomer Windschattenspender – T-Shirt","image":"https://images-api.printify.com/mockup/6ae335ae423d10aee904ce1d/106074/102330/vorsicht-robotaxi-autonomer-windschattenspender-t-shirt.jpg?camera_label=front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33719374","categories":["Shirts"],"visible":true},{"id":"6ae335c8764ac24ef501e21a","title":"Caution Robotaxi – Autonomous Slipstream Donor – Hoodie","image":"https://images-api.printify.com/mockup/6ae335c8764ac24ef501e21a/111252/105309/caution-robotaxi-autonomous-slipstream-donor-hoodie.jpg?camera_label=front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33719372","categories":["Hoodies"],"visible":true},{"id":"6ae335bb06419d0bd204cd56","title":"Vorsicht Robotaxi – Autonomer Windschattenspender – Hoodie","image":"https://images-api.printify.com/mockup/6ae335bb06419d0bd204cd56/111252/105309/vorsicht-robotaxi-autonomer-windschattenspender-hoodie.jpg?camera_label=front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33719371","categories":["Hoodies"],"visible":true},{"id":"6ae335b1a2eeed62a20a6dee","title":"Caution Robotaxi – Autonomous Slipstream Donor – T-Shirt","image":"https://images-api.printify.com/mockup/6ae335b1a2eeed62a20a6dee/106074/102330/caution-robotaxi-autonomous-slipstream-donor-t-shirt.jpg?camera_label=front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33719277","categories":["Shirts"],"visible":true},{"id":"6ad29b5ebe99720e8e0bd89a","title":"Never Bet Against Elon – T-Shirt","image":"https://images-api.printify.com/mockup/6ad29b5ebe99720e8e0bd89a/106074/102330/never-bet-against-elon-t-shirt.jpg?camera_label=front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33193323","categories":["Shirts"],"visible":true},{"id":"6ad29b613f42a07d4c0916bb","title":"Never Bet Against Elon – Hoodie","image":"https://images-api.printify.com/mockup/6ad29b613f42a07d4c0916bb/111252/105309/never-bet-against-elon-hoodie.jpg?camera_label=front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33193319","categories":["Hoodies"],"visible":true},{"id":"6ad0d8a7210a7ce1c7029790","title":"Everything Is Impossible Until You Do It – T-Shirt","image":"https://images-api.printify.com/mockup/6ad0d8a7210a7ce1c7029790/105894/103510/everything-is-impossible-until-you-do-it-t-shirt.jpg?camera_label=person-front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33190262","categories":["Shirts"],"visible":true},{"id":"6ad08cb56350edbaa00afb92","title":"Employee of the month – T-Shirt","image":"https://images-api.printify.com/mockup/6ad08cb56350edbaa00afb92/105894/103512/employee-of-the-month-t-shirt.jpg?camera_label=person-2-front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33190237","categories":["Shirts"],"visible":true},{"id":"6ace8f2ece7c87c29804dedd","title":"Physics Is The Law – T-Shirt","image":"https://images-api.printify.com/mockup/6ace8f2ece7c87c29804dedd/105894/103512/physics-is-the-law-t-shirt.jpg?camera_label=person-2-front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33190230","categories":["Shirts"],"visible":true},{"id":"6ad0d8aa9f29f027050189f2","title":"Everything Is Impossible Until You Do It – Hoodie","image":"https://images-api.printify.com/mockup/6ad0d8aa9f29f027050189f2/111252/105342/everything-is-impossible-until-you-do-it-hoodie.jpg?camera_label=person-1-front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33189969","categories":["Hoodies"],"visible":true},{"id":"6ad0d89297db1f1b0d0e732c","title":"Employee of the month Robot – Hoodie","image":"https://images-api.printify.com/mockup/6ad0d89297db1f1b0d0e732c/111248/105348/employee-of-the-month-robot-hoodie.jpg?camera_label=person-2-front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33189959","categories":["Hoodies"],"visible":true},{"id":"6ad08cb624ebd1b30b024ec2","title":"Employee of the month – Hoodie","image":"https://images-api.printify.com/mockup/6ad08cb624ebd1b30b024ec2/111248/105342/employee-of-the-month-hoodie.jpg?camera_label=person-1-front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33189951","categories":["Hoodies"],"visible":true},{"id":"6ace8f2fec6de8c5e70c210c","title":"Physics Is The Law – Hoodie","image":"https://images-api.printify.com/mockup/6ace8f2fec6de8c5e70c210c/111248/105342/physics-is-the-law-hoodie.jpg?camera_label=person-1-front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33189943","categories":["Hoodies"],"visible":true},{"id":"6accf472418119f54500721b","title":"Robots Are Coming – T-Shirt","image":"https://images-api.printify.com/mockup/6accf472418119f54500721b/106074/102330/robots-are-coming-t-shirt.jpg?camera_label=front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33189871","categories":["Shirts"],"visible":true},{"id":"6accf474423a1ac1f3083ec2","title":"Robots Are Coming – Hoodie","image":"https://images-api.printify.com/mockup/6accf474423a1ac1f3083ec2/111248/105348/robots-are-coming-hoodie.jpg?camera_label=person-2-front","price":58.0,"url":"https://cybergigafactory.printify.me/product/33186186","categories":["Hoodies"],"visible":true},{"id":"6ad0d88ff0531fc34e0f5d1a","title":"Employee of the month Robot – T-Shirt","image":"https://images-api.printify.com/mockup/6ad0d88ff0531fc34e0f5d1a/106074/103512/employee-of-the-month-robot-t-shirt.jpg?camera_label=person-2-front","price":29.0,"url":"https://cybergigafactory.printify.me/product/33151411","categories":["Shirts"],"visible":true}];
+  // Reihenfolge wie in der Printify-Kollektion "T-Shirts"; Hoodies folgen derselben Designreihenfolge
+  var DESIGNS = ['Never Bet Against Elon','Everything Is Impossible Until You Do It','Caution Robotaxi','Employee of the month','Physics Is The Law','Vorsicht Robotaxi','Robots Are Coming','Employee of the month Robot'];
+  // Aufkleber: Heck-Aufkleber EN und DE nicht nebeneinander
+  var AUFKLEBER = ['dunkel','Caution Robotaxi','transparent','Vorsicht Robotaxi'];
+  var eur = new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR'});
+  function design(t){ return t.split(' \u2013 ')[0].trim(); }
+  function rang(p, kat){
+    if (kat === 'Aufkleber'){ for (var i=0;i<AUFKLEBER.length;i++){ if (p.title.indexOf(AUFKLEBER[i])>-1) return i; } return 99; }
+    var i = DESIGNS.indexOf(design(p.title)); return i<0 ? 99 : i;
+  }
+  function anzeigeTitel(p, kat){
+    if (kat === 'Aufkleber') return p.title;
+    var teile = p.title.split(' \u2013 '); if (teile.length>1) teile.pop(); return teile.join(' \u2013 ');
+  }
+  function el(tag, cls, txt){ var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; }
+  function zeigen(liste){
+    var blocks = document.querySelectorAll('.cgf-shop .block');
+    Array.prototype.forEach.call(blocks, function(b){
+      var kat = b.getAttribute('data-kat'), raster = b.querySelector('.raster');
+      var ps = liste.filter(function(p){ var c=p.categories||[]; return p.visible===true && p.url && c.indexOf(kat)>-1 && c.indexOf('Kinder')<0; })
+        .map(function(p,i){ return {p:p,i:i}; })
+        .sort(function(a,b){ return (rang(a.p,kat)-rang(b.p,kat)) || (a.i-b.i); })
+        .map(function(x){ return x.p; });
+      raster.innerHTML='';
+      b.querySelector('.zahl').textContent = ps.length + (ps.length===1?' Produkt':' Produkte');
+      if (!ps.length){ raster.appendChild(el('p','leer','Gerade nichts sichtbar. Schau im ganzen Shop vorbei.')); return; }
+      ps.forEach(function(p){
+        var a = el('a','kachel'); a.href=p.url; a.target='_blank'; a.rel='noopener noreferrer';
+        var t = anzeigeTitel(p,kat); a.setAttribute('aria-label', t + ', ' + (p.price!=null?eur.format(p.price):'') + ', öffnet den Printify Shop');
+        var fig = el('div','bild'); var img = el('img'); img.src=p.image; img.alt=p.title; img.loading='lazy'; img.decoding='async'; img.width=600; img.height=600; fig.appendChild(img);
+        var tx = el('div','text'); tx.appendChild(el('span','titel',t)); if (p.price!=null) tx.appendChild(el('span','preis',eur.format(p.price)));
+        a.appendChild(fig); a.appendChild(tx); raster.appendChild(a);
+      });
+    });
+  }
+  zeigen(FALLBACK);
+  fetch(QUELLE,{cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(d){ if (Array.isArray(d) && d.length) zeigen(d); })
+    .catch(function(){ /* Fallback bleibt sichtbar */ });
+})();
+</script>
+</body>
+</html>
