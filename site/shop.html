@@ -32,11 +32,12 @@ a{color:inherit}
 .cgf-shop .block{margin-top:3rem}
 .cgf-shop .block-kopf{display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid var(--rd);padding-bottom:.6rem;margin-bottom:1.2rem}
 .cgf-shop h2{font-size:1.9rem;font-weight:600}.cgf-shop h2::before{content:"";display:inline-block;width:.5rem;height:1.3rem;background:var(--or);margin-right:.6rem;vertical-align:-.1rem}
-.cgf-shop .zahl{color:var(--bl);font-family:ui-monospace,Menlo,monospace;font-size:.85rem}
+.cgf-shop .zahl{color:var(--mu);font-family:ui-monospace,Menlo,monospace;font-size:.85rem}
 .cgf-shop .raster{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
 @media (max-width:900px){.cgf-shop .raster{grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem}}
 .cgf-shop .kachel{display:flex;flex-direction:column;background:var(--fl);border:1px solid var(--rd);text-decoration:none;transition:border-color .15s,transform .15s}
-.cgf-shop .kachel:hover,.cgf-shop .kachel:focus-visible{border-color:var(--or);transform:translateY(-2px);outline:none}
+.cgf-shop .kachel:hover,.cgf-shop .kachel:focus-visible{border-color:var(--or);transform:translateY(-2px)}
+.cgf-shop a:focus-visible{outline:2px solid var(--or);outline-offset:2px}
 .cgf-shop .bild{aspect-ratio:1/1;background:#fff;overflow:hidden}
 .cgf-shop .bild img{width:100%;height:100%;object-fit:cover;display:block}
 .cgf-shop .text{padding:.7rem .8rem .9rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
@@ -81,12 +82,13 @@ a{color:inherit}
     if (kat === 'Aufkleber') return p.title;
     var teile = p.title.split(' \u2013 '); if (teile.length>1) teile.pop(); return teile.join(' \u2013 ');
   }
+  function sicher(p){ return p && typeof p.title==='string' && typeof p.url==='string' && p.url.indexOf('https://cybergigafactory.printify.me/')===0 && typeof p.image==='string' && p.image.indexOf('https://')===0; }
   function el(tag, cls, txt){ var e=document.createElement(tag); if(cls) e.className=cls; if(txt!=null) e.textContent=txt; return e; }
   function zeigen(liste){
     var blocks = document.querySelectorAll('.cgf-shop .block');
     Array.prototype.forEach.call(blocks, function(b){
       var kat = b.getAttribute('data-kat'), raster = b.querySelector('.raster');
-      var ps = liste.filter(function(p){ var c=p.categories||[]; return p.visible===true && p.url && c.indexOf(kat)>-1 && c.indexOf('Kinder')<0; })
+      var ps = liste.filter(function(p){ var c=p.categories||[]; return p.visible===true && sicher(p) && c.indexOf(kat)>-1 && c.indexOf('Kinder')<0; })
         .map(function(p,i){ return {p:p,i:i}; })
         .sort(function(a,b){ return (rang(a.p,kat)-rang(b.p,kat)) || (a.i-b.i); })
         .map(function(x){ return x.p; });
@@ -104,7 +106,7 @@ a{color:inherit}
   }
   zeigen(FALLBACK);
   fetch(QUELLE,{cache:'no-store'}).then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function(d){ if (Array.isArray(d) && d.length) zeigen(d); })
+    .then(function(d){ if (Array.isArray(d) && d.filter(sicher).length) zeigen(d); })
     .catch(function(){ /* Fallback bleibt sichtbar */ });
 })();
 </script>
